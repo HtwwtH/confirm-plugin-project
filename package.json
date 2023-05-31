@@ -1,0 +1,11 @@
+{
+  "name": "vue-confirm-plugin-proj",
+  "version": "1.0.0",
+  "description": "Vue confirm plugin",
+  "main": "index.js",
+  "author": "Alina Pov",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
