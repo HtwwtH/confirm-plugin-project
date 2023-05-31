@@ -1,4 +1,5 @@
 import './assets/main.css'
+import '@pkg/confirm/dist/style.css'
 
 import { createApp } from 'vue'
 import { confirmPlugin } from '@pkg/confirm'

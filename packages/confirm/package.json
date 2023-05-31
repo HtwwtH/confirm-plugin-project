@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "main": "./dist/confirm.mjs",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -15,6 +17,7 @@
   },
   "dependencies": {
     "@babel/types": "^7.22.4",
+    "@vitejs/plugin-vue": "^4.2.3",
     "vue": "^3.3.2"
   },
   "devDependencies": {

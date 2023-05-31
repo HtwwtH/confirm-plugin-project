@@ -14,7 +14,7 @@ export default defineConfig({
     rollupOptions: {
       external: ["vue"],
       output: {
-        glovals: {
+        globals: {
           Vue: "vue"
         }
       }

@@ -6,18 +6,8 @@ import { useConfirmWrapper } from './useConfirmWrapper'
 
 const { addPopup } = useConfirmWrapper()
 
-// const createDialog = (options: ConfirmOptions) => {
-//   options.onDone()
-// }
-
 export const useConfirm = () => {
   const confirm = (options: ConfirmOptions): void => {
-    // createDialog({
-    //   message: options.message,
-    //   onDone: options.onDone,
-    //   onClose: options.onClose,
-    // })
-
     addPopup(options)
   };
 

@@ -12,7 +12,6 @@ const onConfirm = () => {
     },
   })
 }
-// const onConfirm = () => { console.log('mde') }
 </script>
 
 <template>
