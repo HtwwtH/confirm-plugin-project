@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useConfirmWrapper } from './useConfirmWrapper'
+
 const { ConfirmsStore } = useConfirmWrapper()
 </script>
 
@@ -10,8 +11,8 @@ const { ConfirmsStore } = useConfirmWrapper()
     </div>
     
     <div class="buttons">
-      <button class="btn" @click="popup.onDone">Да</button>
-      <button class="btn" @click="popup.onClose">Отмена</button>
+      <button type="button" class="btn" @click="popup.onDone">Да</button>
+      <button type="button" class="btn" @click="popup.onClose">Отмена</button>
     </div>
   </div>
 </template>

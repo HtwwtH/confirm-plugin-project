@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Alina Pov",
   "license": "MIT",
+  "private": true,
   "workspaces": [
     "packages/*"
   ]

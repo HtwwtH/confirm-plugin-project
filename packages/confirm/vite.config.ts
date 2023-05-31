@@ -5,6 +5,21 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    lib: {
+      entry: "src/index.ts",
+      formats: ["es"],
+      name: "confirmLib"
+    },
+    rollupOptions: {
+      external: ["vue"],
+      output: {
+        glovals: {
+          Vue: "vue"
+        }
+      }
+    }
+  },
   plugins: [vue()],
   resolve: {
     alias: {
